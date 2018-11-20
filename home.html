@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load  staticfiles %}
+
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <title>Welcome to myproject</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Yanone+Kaffeesatz" rel="stylesheet">
+<link rel="stylesheet" href="{%  static 'css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/style.css'%}"/>
+    <link rel="stylesheet" href="{% static 'css/footer.css'%}"/>
+    <script src="{% static 'js/jquery-3.3.1.min.js'%}"></script>
+    <script src="{%static 'js/bootstrap.min.js'%}"></script>
+
+<style>
+.navbar{
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid ">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+
+                        <img src="{% static 'img/logo.png '%}" class="img-circle logo" height="100" width="100" style=" float:left; ">
+                        <h3 style="position: absolute;left: 131px;;color: #fff;;top: 31px;">EPI</h3>
+                    </a>
+                </div>
+<div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/login">LOGIN</a></li>
+                        <li><a href="contact">CONTACTUS</a></li>
+                    </ul>
+                </div>
+</body>
+</html>
