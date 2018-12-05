@@ -1,0 +1,33 @@
+Programming Challenge Description:
+Write a function that accepts two arbitrary strings and returns a new string containing only the unique characters present in both inputs.
+
+Input:
+
+The function must accept two string parameters.
+
+Output:
+
+The function must return a string.
+
+Note : Need to write a python function which takes input from user and gives the expected output
+
+ 
+
+Programming Challenge Description:
+Write 4 functions based on the following requirements
+
+a.      Write a function that accepts an integer and returns True if the input is between 4 and 10, inclusive; otherwise, return False
+
+b.      Write a function to test if a list contains any items. Return 'EMPTY' if it does not contain any items and 'NOT EMPTY' if it does.
+
+c.       Write a function that accepts a file name and a string and writes the string to the file with the given file name.
+
+d.      Write a function that accepts a list and doubles each value in the list. When no input parameter is provided, return an empty list.
+
+Input:
+
+N/A
+
+Output:
+
+N/A
